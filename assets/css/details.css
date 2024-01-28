@@ -1,0 +1,61 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+    padding: 0 1rem;
+    background-color: yellowgreen;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+}
+.product img{
+    width: 500px;
+    aspect-ratio: 1/1;
+    object-fit: fill;
+    border-radius: 0.5rem;
+}
+.product .title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.product .price{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    color: red;
+}
+.product .description{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.product .rating{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.product .brand{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+.product .buy-now{
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.product .buy-now:hover{
+    background-color: #fff;
+    color: #000;
+}

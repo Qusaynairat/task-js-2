@@ -12,6 +12,7 @@ async function getproducts() {
         <h2><span>Title : </span> ${mobile.title}</h2>
         <h3><span>Price : </span>${mobile.price} $</h3>
         <h4><span>Brand : </span>${mobile.brand}</h4>
+        <a href="details.html?m_id=${mobile.id}">Details</a>
         </div>`
 });
 document.querySelector(".products").innerHTML=result.join(""); 

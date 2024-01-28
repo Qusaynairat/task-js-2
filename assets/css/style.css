@@ -5,16 +5,16 @@
     margin: 0 auto;
     width: 90%;
     background-color: whitesmoke;
-    /* border: 1px solid #ccc ; */
 }
 .product{
     width: 30%;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid white;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 15 px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: yellowgreen;
+    
 }
 .product img{
     width: 100%;
@@ -22,25 +22,28 @@
     object-fit: fill;
     aspect-ratio: 1/1;
     border: 1px solid #ccc;
+    border-radius: 10px 100px / 120px;
 }
 .product h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 12px;
+}
+.product h3{
     font-size: 20px;
     font-weight: 600;
     margin: 10px 0;
-    border: 1px solid #ccc;
-    padding: 15px;
-}
-.product h3{
-    font-size: 18px;
-    font-weight: 600;
-    margin: 10px 0;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding: 10px;
+    border-radius: 12px;
 }
 .product h4{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     margin: 10px 0;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     padding: 10px;
+    border-radius: 12px;
 }
