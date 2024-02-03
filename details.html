@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/details.css">
     <title>Document</title>
 </head>
-<body>
     <div class="product">
-    <h2 class="title"></h2>
-    <img class="image"/>
-    <p class="description"></p>
-    <p class="rating"></p>
-    <p class="price"></p>
-    <p class="brand"></p>
-    <input type="submit" value="Buy Now" class="buy-now">
+        <h2 class="title"></h2>
+        <div class="swiper">
+            <div class="swiper-wrapper"></div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <!-- <img src="" alt="" class="image"> -->
+        <p class="description"></p>
+        <p class="rating"></p>
+        <p class="price"></p>
+        <p class="brand"></p>
+        <input type="submit" value="Buy Now" class="buy-now">
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/details.js"></script>
-</body>
+    </body>
+
 </html>
